@@ -46,7 +46,9 @@ registerButton &&registerButton.addEventListener('click', function (e) {
             form.reset();
         })
         .catch(function(error){
-            console.error('Error:', error);
+            console.error('Error:', error.message);
+            console.log(error.message);
+            
         });
     });
 
