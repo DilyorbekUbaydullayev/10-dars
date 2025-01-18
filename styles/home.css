@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+.form,
+.search,
+#books {
+  margin: 10px 0;
+}
+input,
+button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #007bff;
+}
+.form-group {
+  display: inline-block;
+  margin-right: 10px;
+}
+.book-item {
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+#div{
+  display: flex;
+  justify-content: center;
+ 
+}
+#books{
+  box-sizing: border-box;
+  padding: 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.book{
+ color: #fff;
+  border: 1px solid #ccc;
+  width: 200px;
+  height: 220px;
+  position: relative;
+  box-shadow: 0px 1px 15px 3px rgba(0, 0, 0, 0.2);
+}
+.book h4,p {
+  text-align: center;
+}
+.book button{
+  background: #fff;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.action{
+  display: flex;
+  justify-content:center;
+  gap: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.action button {
+  width: 100%;
+ border-radius: 0;
+ 
+}
+#deleteBtn{
+  border-right: none;
+}
+#editBtn{
+  border-left: none;
+}
